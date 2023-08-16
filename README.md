@@ -15,3 +15,9 @@ creating a rock paper scissors game where a user plays with the computer and fir
 - user sees what option computer chose
 - both options are checked 
 - user sees the winner of the round
+- point added to winner of the round score
+
+**what should happen when a player (either computer or user) get to five points**
+
+- show result of the game
+- show button to play again or reset the game
