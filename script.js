@@ -58,12 +58,15 @@ function playGame(){
            computerScore = ++computerScore
            cpuScore.textContent = computerScore
         }
-        if(computerScore === 5){
-          alert ('computer wins this game')
-          
+        if(computerScore == 5){
+          if(alert('Computer wins this game.Play Again?')){}
+          else    window.location.reload(); 
         }
-        if(yourScore === 5){
-          alert ( 'you win this game')}
+        if(yourScore == 5){
+          if(alert('You win this game.Play Again?')){}
+          else    window.location.reload(); 
+        }
+          
       }
       }
       // function to restart the game
