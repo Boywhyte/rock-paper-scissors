@@ -25,13 +25,13 @@ function playGame(){
     
     
         if (randomNumber === 0){
-          computersChoice = 'rock'
+          computersChoice = 'Rock'
         }
         if (randomNumber === 1){
-          computersChoice = 'paper'
+          computersChoice = 'Paper'
         }
         if (randomNumber === 2){
-          computersChoice = 'scissors'
+          computersChoice = 'Scissors'
         }
     
       
@@ -47,7 +47,7 @@ function playGame(){
         if (computersChoice == userChoice ){
           resultDisplay.textContent = 'its a draw'
         }
-        else if(computersChoice === 'rock' && userChoice == 'paper'|| computersChoice == 'paper'&&userChoice=='scissors'|| computersChoice == 'scissors'&& userChoice == 'rock')
+        else if(computersChoice === 'Rock' && userChoice == 'Paper'|| computersChoice == 'Paper'&&userChoice=='Scissors'|| computersChoice == 'Scissors'&& userChoice == 'Rock')
         {
           resultDisplay.textContent = 'you win'
           yourScore = ++yourScore

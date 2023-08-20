@@ -1,3 +1,61 @@
+@font-face {
+    font-family:spacemonkey ;
+    src: url(fonts/SpaceMonkeyBold-Ea5On.otf);
+}
+@font-face {
+    font-family:clash display ;
+    src: url(fonts/ClashDisplay-Medium.otf);
+}
+@font-face {
+    font-family: space-mono;
+    src: url(fonts/SpaceMono-Regular.ttf);
+}
 body{
     background-color: aliceblue;
+    background-image: url(images/Premium\ Vector\ _\ Abstract\ realistic\ technology\ particle\ background.jpeg);
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 49.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+h1{
+    font-family: spacemonkey;
+    color: yellow;
+}
+h2{
+    font-family: clash display;
+}
+button{
+    height: 30px;
+    width: 10em;
+    font-family: clash display;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: yellow;
+    box-shadow: 4px 4px 3px white;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.container{
+    width: 32em;
+}
+
+h4{
+    font-family: space-mono;
+    font-size: 1.1em;
+}
+#result{
+    color:yellow
 }
